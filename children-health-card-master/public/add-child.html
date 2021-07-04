@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script src="add-child.js"></script>
+    <meta charset="UTF-8">
+    <title>Dodanie nowego dziecka</title>
+</head>
+<body>
+<div style="padding: 70px">
+<form id="addChildForm">
+    <label class="" for="name">Imię: </label>
+    <input type="text" label="name" id="name" style="display: block" required>
+    <label class="" for="surname">Nazwisko: </label>
+    <input type="text" label="surname" id="surname" style="display: block" required>
+    <label class="" for="pesel">Numer PESEL: </label>
+    <input type="text" label="pesel" id="pesel" style="display: block" required>
+    <label class="" for="weight">Aktualna waga: </label>
+    <input type="text" label="weight" id="weight" style="display: block" required>
+    <label class="" for="height">Aktualny wzrost: </label>
+    <input type="text" label="height" id="height" style="display: block" required>
+    <label class="" for="birth">Data urodzenia: </label>
+    <input type="date" label="birth" id="birth" style="display: block" required>
+    <input type="submit" class="btn" style="dispaly: block" onclick="sendChildData()"/>
+</form>
+</div>
+</body>
+<script>
+function sendChildData() {
+
+}
+</script>
+</html>
